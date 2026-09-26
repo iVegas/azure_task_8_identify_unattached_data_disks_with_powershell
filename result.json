@@ -1,0 +1,76 @@
+[
+  {
+    "ResourceGroupName": "mate-azure-task-5",
+    "ManagedBy": null,
+    "ManagedByExtended": [],
+    "Sku": {
+      "Name": "Premium_LRS",
+      "Tier": "Premium"
+    },
+    "Zones": null,
+    "TimeCreated": "2026-09-24T21:11:47.8982824Z",
+    "OsType": null,
+    "HyperVGeneration": null,
+    "CreationData": {
+      "CreateOption": "Restore",
+      "StorageAccountId": null,
+      "ImageReference": null,
+      "GalleryImageReference": null,
+      "SourceUri": null,
+      "SourceResourceId": "/subscriptions/ffd9a78e-9eb9-45ad-bc86-9fcaa35a83ad/resourceGroups/mate-azure-task-5/providers/Microsoft.Compute/disks/voleger-data-disk-ASRReplica/bookmark/afd02029-d89c-40bf-bb69-38c9b7bb5e40",
+      "SourceUniqueId": null,
+      "UploadSizeBytes": null,
+      "LogicalSectorSize": null,
+      "SecurityDataUri": null,
+      "SecurityMetadataUri": null,
+      "PerformancePlus": null,
+      "ElasticSanResourceId": null,
+      "ProvisionedBandwidthCopySpeed": null,
+      "InstantAccessDurationMinutes": null
+    },
+    "DiskSizeGB": 64,
+    "DiskSizeBytes": 68719476736,
+    "UniqueId": "18efc872-c278-4e00-86b5-68fa5f34cb13",
+    "EncryptionSettingsCollection": null,
+    "ProvisioningState": "Succeeded",
+    "DiskIOPSReadWrite": 240,
+    "DiskMBpsReadWrite": 50,
+    "DiskIOPSReadOnly": null,
+    "DiskMBpsReadOnly": null,
+    "DiskState": "Unattached",
+    "Encryption": {
+      "DiskEncryptionSetId": null,
+      "Type": "EncryptionAtRestWithPlatformKey"
+    },
+    "MaxShares": null,
+    "ShareInfo": [],
+    "Id": "/subscriptions/ffd9a78e-9eb9-45ad-bc86-9fcaa35a83ad/resourceGroups/mate-azure-task-5/providers/Microsoft.Compute/disks/voleger-data-disk",
+    "Name": "voleger-data-disk",
+    "Type": "Microsoft.Compute/disks",
+    "Location": "spaincentral",
+    "ExtendedLocation": null,
+    "Tags": {
+      "ASR-FODisk": "Created by Azure Site Recovery."
+    },
+    "NetworkAccessPolicy": "AllowAll",
+    "DiskAccessId": null,
+    "Tier": "P6",
+    "BurstingEnabled": null,
+    "PurchasePlan": null,
+    "SupportsHibernation": null,
+    "SecurityProfile": null,
+    "PublicNetworkAccess": "Enabled",
+    "SupportedCapabilities": {
+      "DiskControllerTypes": "SCSI, NVMe",
+      "AcceleratedNetwork": null,
+      "Architecture": null,
+      "SupportedSecurityOption": null
+    },
+    "DataAccessAuthMode": null,
+    "CompletionPercent": null,
+    "OptimizedForFrequentAttach": null,
+    "AvailabilityPolicy": null,
+    "SecurityDataUri": null,
+    "SecurityMetadataUri": null
+  }
+]
